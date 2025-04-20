@@ -14,7 +14,8 @@ for cont in range(1,cant_numeros+1):
     print("Ingrese número", cont)
     num = int(input())
     sumatoria = sumatoria + num
-    print()
+    # sumatoria += num
+    # cont = cont + 1 --> cont += 1
 
 print("La sumatoria de los valores es", sumatoria)
 print("El valor promedio es",(sumatoria/cant_numeros))
