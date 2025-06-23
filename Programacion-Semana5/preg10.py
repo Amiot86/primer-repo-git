@@ -1,6 +1,6 @@
 dia=int(input("Introduce el valor n1: "))
 mes=int(input("Introduce el valor n2: "))
-año=int(input("Introduce el valor n3: "))
+anio=int(input("Introduce el valor n3: "))
 
 if mes in [1,2,3,5,7,8,10,12]:
     dd=31

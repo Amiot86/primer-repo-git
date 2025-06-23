@@ -5,6 +5,9 @@ def leer_entero_validado(mensaje, min = float("-Inf"), max = float("Inf")):
         n = int(input(f"ERROR. {mensaje} "))
     return n
 
+def es_multiplo(x,y):
+    return obtener_resto(x,y)  == 0
+
 def es_primo(numero):
     cont = 2
     mitad = numero // 2

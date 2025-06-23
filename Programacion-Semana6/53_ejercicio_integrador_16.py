@@ -1,7 +1,7 @@
 # Definición de funciones
 def leer_entero_validado(mensaje,min = float("-Inf"), max = float("Inf")):
     n =int(input(f"{mensaje}: "))
-    while n < min or > max:
+    while n < min or n > max:
         n = int(input(f"ERROR. {mensaje}: "))
     return n
 
@@ -13,7 +13,7 @@ def es_multiplo(x,y):
 
 def sumatoria_divisores_propios(numero):
     sumatoria = 0
-    for i in range (1, n(umero // 2) + 1):
+    for i in range (1, (numero // 2) + 1):
         if es_multiplo(numero, i):
             sumatoria += i
     return sumatoria
